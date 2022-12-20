@@ -166,7 +166,7 @@ int main ()
     std::cout << "--------------------" << std::endl;
     std::cout << "The primary objective of Blackjack is to get a hand of cards with a greater value than the" << std::endl;
     std::cout << "dealer's without the value of your hand exceeding 21, which is referred to as going bust." <<std::endl;
-    std::cout << "Face cards are worth 10, aces are worth 11, and all other cards are worth their numeric value." << std::endl;
+    std::cout << "Face cards are worth 10, aces are worth 11 or 1, and all other cards are worth their numeric value." << std::endl;
     std::cout << "After the initial deal, you can either hit (take another card) or stand (take no more cards" << std::endl;
     std::cout << "and keep your total)." << std::endl;
     std::cout << "The dealer must draw on 16 or less. There is no splitting cards in this version of Blackjack." << std::endl;
