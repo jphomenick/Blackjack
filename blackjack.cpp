@@ -1,6 +1,6 @@
 //Implement the game of Blackjack (21)
 //Single player plays against the house.
-//No splitting cards, aces are always worth 11
+//No splitting cards, no betting
 
 #include <iostream>
 #include <ctime>
