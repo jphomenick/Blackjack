@@ -287,17 +287,18 @@ int main ()
         std::cout << "Yes [y] or No [n]: ";
         std:: cin >> choice;
 
-        if (choice == 'n') //player hits
+        if (choice == 'n')
         {
+            std::cout << std::endl << "Thanks for playing!";
             exit = true;
         }
-        else if (choice == 'y') //player stands
+        else if (choice == 'y')
         {
             exit = false;
         }
         else
         {
-            std::cout << "Invalid input! Press [h] to hit or [s] to stand." << std::endl;
+            std::cout << "Invalid input! Press [y] to play another round or [n] to exit." << std::endl;
         }
 
         std::cout << std::endl;
